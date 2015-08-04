@@ -1,0 +1,41 @@
+<header class="navbar navbar-default navbar-fixed-top" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="{{ "/" | prepend: site.baseurl }}" class="logo-container">
+                <img src="{{ "/img/logo.png" | prepend: site.baseurl }}" alt="MEAN.JS" height="40">
+            </a>
+        </div>
+        <nav id="navbar" class="collapse navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="{{ "/docs.html" | prepend: site.baseurl }}" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="true">Docs <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{ "/docs/0.4.x/" | prepend: site.baseurl }}">Docs 0.4.0 Latest</a></li>
+                        <li><a href="{{ "/docs/0.3.x/" | prepend: site.baseurl }}">Docs 0.3.0 Stable</a></li>
+                    </ul>
+                </li>
+                <li>
+                <a href="{{ "/generator.html" | prepend: site.baseurl }}">Yo Generator</a>
+                </li>
+                <li>
+                    <a href="{{ "/modules.html" | prepend: site.baseurl }}">Modules</a>
+                </li>
+                <li>
+                    <a href="{{ "/changelog.html" | prepend: site.baseurl }}">Changelog</a>
+                </li>
+                <li>
+                    <a href="{{ "/community.html" | prepend: site.baseurl }}">Community</a>
+                </li>
+                <li>
+                    <a href="http://blog.meanjs.org">Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>

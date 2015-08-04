@@ -3,5 +3,11 @@
 .sass-cache/
 npm-debug.log
 node_modules/
-public/lib
+public/
+config/
 server/test/coverage/
+modules/
+
+_site/
+.sass-cache/
+.jekyll-metadata
